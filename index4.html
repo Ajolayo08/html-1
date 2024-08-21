@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajolayo</title>
+   
+</head>
+<body style="background-color: rgba(2, 9, 12, 0.916);">
+    <h1 style="color: rgb(14, 123, 201);">HTML form</h1>
+    <form>
+        <label for="username" style="color: rgb(20, 92, 129);">Enter username:</label>
+        <input type="text" id="username" name="username" placeholder="username..." required style="background-color: aquamarine;">
+        <br><br>
+        <label for="email" style="color: rgb(19, 94, 138);">Enter email:</label>
+        <input type="email" id="email" name="email" placeholder="your email..." required style="background-color: aquamarine;">
+        <br><br>
+        <label for="password" style="color: rgb(21, 99, 147);">Password</label>
+        <input type="password" id="password" name="password" placeholder="your password..."required style="background-color: aquamarine;">
+
+        <p style="color: rgb(23, 106, 144);">Select your age</p>
+
+        <input type="radio" name="age" value="0-25" id="option 1">
+        <label for="option 1">0-25</label><br>
+        <input type="radio" name="age" value="26-50" id="option 2">
+        <label for="option 1">26-50</label><br>
+        <input type="radio" name="age" value="50+" id="option 3">
+        <label for="option 3">50+</label>
+
+        <br><br>
+
+        <label for="question" style="color: rgb(23, 103, 157);">Security question:</label>
+        <select name="question" id="question">
+            <option value="q1">What is the name of your father</option>
+            <option value="q2">What is the name of your mother</option>
+            <option value="q3">What is the name of any of your siblings</option>
+        </select>
+
+            <br><br>
+
+            <label for="answer" style="color: rgb(23, 84, 141);">Security question answers:</label>
+            <input type="text" name="answer">
+
+            <br><br>
+
+            <label for="bio" style="color: rgb(21, 104, 145);">Your bio:</label> <br>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you....."></textarea>
+
+            <br><br>
+
+            <input type="submit" value="Submit your form" style="color: rgb(2, 8, 14);">
+
+
+    </form> 
+</body>
+</html
